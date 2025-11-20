@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello Manoj — Spring Boot running with Docker + MySQL!";
+        return "Hello Manoj Spring Boot running with Docker and MySQL!";
     }
 }
